@@ -1,0 +1,11 @@
+GET http://localhost:5000/posts
+
+###
+
+POST http://localhost:5000/user/signin
+Content-Type: application/json
+
+{
+    "email":"tg2001@gmail.com",
+    "password":"tushar"
+}
